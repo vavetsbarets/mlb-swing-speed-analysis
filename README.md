@@ -43,10 +43,6 @@ publicly available from [CSAS 2025 Data Challenge](https://statds.org/events/csa
 Raw dimensions: 701,557 pitches × 113 variables — game state, players and base runners, pitch
 velocity, trajectory, spin and location, swing and bat-tracking measurements, and outcomes.
 
-**The data files are not included in this repository** (roughly 400 MB, above GitHub's file
-size limit). Download the 2024 season from Baseball Savant and place the CSV in the working
-directory before running the analysis.
-
 ### Processing
 
 | Step | Result |
@@ -145,13 +141,9 @@ models, and extension to other pitch types.
 
 | File | Description |
 |---|---|
-| `swing_speed_analysis.Rmd` | Full analysis: data processing, feature engineering, models, figures |
-| `report_csas2025.pdf` | Report submitted to the CSAS 2025 Data Challenge |
-| `report_sds625.pdf` | Report submitted for S&DS 625 / qualifying examination |
+| `Batters_Swing_Speed_as_Exogenous_and_Endogenous_Variable.Rmd` | Full analysis: data processing, feature engineering, models, figures |
+| `Batters_Swing_Speed_as_Exogenous_and_Endogenous_Variable-compressed.pdf` | Knitted report submitted to the CSAS 2025 Data Challenge |
 
-The two reports describe the same analysis. The CSAS version is more polished, moves
-exploratory analysis to appendices, and adds an appendix documenting the rejected xwOBA
-analysis.
 
 ## Running the analysis
 
