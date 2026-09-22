@@ -38,7 +38,7 @@ slower?
 
 Source: MLB Statcast pitch-level data for the 2024 regular season and playoffs
 (2 April – 30 October 2024), as released for the CSAS 2025 Data Challenge. The same data are
-publicly available from [Baseball Savant](https://baseballsavant.mlb.com/statcast_search).
+publicly available from [CSAS 2025 Data Challenge](https://statds.org/events/csas2025/challenge.html).
 
 Raw dimensions: 701,557 pitches × 113 variables — game state, players and base runners, pitch
 velocity, trajectory, spin and location, swing and bat-tracking measurements, and outcomes.
@@ -157,5 +157,5 @@ analysis.
 
 Built in R. Main packages: `arrow`, `dplyr`, `ggplot2`, `patchwork`, `pubtheme`, `lightgbm`.
 
-Download the 2024 Statcast data from Baseball Savant, place the CSV in the working directory,
+Download the 2024 Statcast data from [here](https://statds.org/events/csas2025/challenge.html), place the CSV in the working directory,
 adjust the file path at the top of the `.Rmd`, and knit.
